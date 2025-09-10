@@ -105,7 +105,7 @@ GROUP BY month
 ORDER BY month
 
 ### Screenshot of Monthly Revenue Trend
-![monthly trend](monthly trend.pny)
+![monthly trend](monthly trend.png)
 
 ### Explanation
 In order to find monthly revenue trend, we need to use date_format(date, '%y-%m') AS month. This means from the query, we only want date shows year and month. By doing this, we can see each month data. To check total revenue, as usual, use SUM(amount). Group and order by month to check monthly trend.
