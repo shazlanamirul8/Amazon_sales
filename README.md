@@ -20,7 +20,7 @@ The dataset contains X rows and Y columns, with fields such as order_id, date, c
 ## Screenshot of final result
 ![final_result](last_action1.png)
 
-# Beginner Sample Queries 
+# Sample Queries 
 
 ## 1. Best-Selling Product
 SELECT category AS product, SUM(qty) AS total_item_sold
